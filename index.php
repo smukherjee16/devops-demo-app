@@ -64,7 +64,7 @@ $conn->close(); ?>
         <div class="cover-container">
 
             <div class="inner cover">
-                <h1 class="cover-heading">Welcome to the DevOps Demo Application v3. - SAYARI MUKHERJEE</h1>
+                <h1 class="cover-heading">Welcome to the DevOps Demo Application v3. - SAYARI MUKHERJEE VERSION 2</h1>
                 <p class="lead"><i>This app is used for demonstrating and testing various DevOps, CI, and CD concepts.</i></p>
                 <h3>TEST Connection to MySQL DB:
                     <?php
@@ -74,7 +74,7 @@ $conn->close(); ?>
                     </span>
                 </h3>
                 <h3>TEST Environment: <span class="label label-info"><?php echo $config['environment'] ?></span></h3>
-                <h3>TEST Application Version: <span class="label label-info">1.7</span></h3>
+                <h3>TEST Application Version: <span class="label label-info">2.0</span></h3>
                 <h3>TEST Database Scripts Version: <?php
                         if ($dbVersion) {echo '<span class="label label-info">'. $dbVersion;}
                         else {echo '<span class="label label-danger">Failed to load version data';}
